@@ -7,7 +7,7 @@ for(let btn of button){
 
     function buscar(){
 
-        if(display.value === ''){
+        if(display.value === '' && btn.id === '='){
             display.value = '0'
         }
 
